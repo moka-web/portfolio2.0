@@ -1,0 +1,16 @@
+
+
+
+footer{
+    height: 8vh;
+    background-color: rgb(24, 24, 24);
+    /* background: rgb(201,147,32);
+    background: linear-gradient(180deg,  #ffff 35% ,rgba(201,147,32,1) 100% ); */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+footer div h1 {
+    font-size: 1.5vw;
+}

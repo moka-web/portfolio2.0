@@ -1,0 +1,60 @@
+.about{
+    height: 100vh;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    /* border-bottom: solid 1px black; */
+    background-color:#c9932e;
+}
+
+.card-about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    background-color:#c9932e;
+  
+}
+
+
+.about-text{
+    width: 30%;
+    margin: 5% 0 0 10% ;
+    display: flex;
+    flex-direction: column;
+    
+ 
+    
+}
+
+.about-text h1 {
+    color: #ffff;
+    font-size: 5vw;
+    text-align: center;
+    
+}
+.about-text p{
+    color: #ffff;
+    text-align: center;
+}
+.about-image{
+    width: 30%;
+    height: 53%;
+    display: flex;
+    border-radius: 50%;
+    position: relative;
+    left: 10%;
+    top:10%;
+    overflow: hidden;
+    background-color: #e2dedb;
+}
+
+.mifoto{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}

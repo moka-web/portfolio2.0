@@ -1,0 +1,76 @@
+.projects{
+   
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://getwallpapers.com/wallpaper/full/5/5/2/805461-free-download-neon-light-background-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.projects h1{
+    /* text-align: center; */
+    font-size: 5vw;
+    color: #ffff;
+    margin: 5%  0  1% 10%;
+}
+
+.projects p {
+    color: #ffff;
+    margin: 0 0 3% 10%;
+}
+
+.list-projects{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    margin:  0 auto;
+    width: 100%;
+}
+
+.card-project{
+    width: 25%;
+    height: 25%;
+    margin: 2%;
+    background: rgba(14, 6, 6, 0.25);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-link{
+    display: none;
+    top: 40%;
+    left: 45%;
+    text-decoration: none;
+    color: #ffff;
+    position: absolute;
+}
+
+.card-project:hover::before{
+    content: "";
+    color: green;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    align-items: center; 
+}
+
+
+
+.card-project:hover .card-link{
+    display: block;
+}
+
+
+
+
+.card-project img{
+    width: 100%;
+    height: 100% !important;
+}
