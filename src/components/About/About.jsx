@@ -1,7 +1,6 @@
 
-import miFoto from "../../assets/miFoto.jpg"
+
 import "./about.css"
-import micara from "../../assets/miCaraEnPng.png"
 import iconoReact from "../../assets/iconoReact.png";
 import iconoMongo from "../../assets/iconoMongo.png";
 import iconoNode from "../../assets/iconoNode.png";
