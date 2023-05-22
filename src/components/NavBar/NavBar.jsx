@@ -1,8 +1,4 @@
 import "./navbar.css"
-import iconoGithub from "../../assets/iconoGithub.png"
-import iconoLinkedIn from "../../assets/iconoLinkedIn.png"
-import iconoInstagram from "../../assets/iconoInstagram.png"
-import { Home } from "../Home/Home"
 import { useEffect, useRef, useState } from "react"
 
 export const NavBar = () => {

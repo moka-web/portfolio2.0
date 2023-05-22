@@ -4,8 +4,6 @@ import iconoReact from "../../assets/iconoReact.png";
 import iconoMongo from "../../assets/iconoMongo.png";
 import iconoNode from "../../assets/iconoNode.png";
 import iconoExpress from "../../assets/iconoExpress.png";
-import iconoGithhub from "../../assets/iconoGithub.png";
-import iconoLinkedin from "../../assets/iconolinkedin.png";
 import micara from "../../assets/miCaraEnPng.png";
 
 export const Home = () =>{

@@ -1,8 +1,6 @@
 
 import "./contact.css"
-import iconoLinkedin from "../../assets/iconoLinkedin.png"
-import iconoGithub from "../../assets/iconoGithub.png"
-import iconoInstagram from "../../assets/iconoInstagram.png"
+
 import toast, { Toaster } from 'react-hot-toast';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -50,7 +48,6 @@ export const Contact = ()=>{
 
     return(
         <>
-        
             {/* <img  className="rocket-contact" src="https://em-content.zobj.net/source/microsoft-teams/337/rocket_1f680.png" alt="" /> */}
             <div id="contact"  className="contact">
             <div><Toaster/></div>
