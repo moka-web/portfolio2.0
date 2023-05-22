@@ -15,9 +15,19 @@
     margin: 5%  0  1% 10%;
 }
 
+.projects h1 a img{
+
+    width: 3vw;
+
+}
+
+
+
+
 .projects p {
     color: #ffff;
     margin: 0 0 3% 10%;
+
 }
 
 .list-projects{
@@ -39,15 +49,27 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     border-radius: 5px;
     overflow: hidden;
+    display: flex;
 }
 
 .card-link{
     display: none;
-    top: 40%;
-    left: 45%;
+    top: 22%;
+    left: 25%;
     text-decoration: none;
     color: #ffff;
     position: absolute;
+}
+
+
+.card-link2{
+    display: none;
+    top: 30%;
+    left: 55%;
+    text-decoration: none;
+    color: #ffff;
+    position: absolute;
+
 }
 
 .card-project:hover::before{
@@ -66,6 +88,9 @@
 .card-project:hover .card-link{
     display: block;
 }
+.card-project:hover .card-link2{
+    display: block;
+}
 
 
 
@@ -73,4 +98,28 @@
 .card-project img{
     width: 100%;
     height: 100% !important;
+}
+
+
+@media screen and (max-width: 768px){
+    .list-projects{
+        flex-direction: column;
+
+    }
+
+    .card-project{
+        width: 90%;
+        height: 20%;
+
+
+        margin: 2%;
+        background: rgba(14, 6, 6, 0.25);
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    
+
 }

@@ -124,22 +124,21 @@ input:hover::placeholder, textarea:hover::placeholder {
 input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   color: #cbc6c1;
 }
-/* ojota aca con el background que esta rajando todo 
- */
+
 
 
 #form {
-  position: relative;
-  width: 500px;
+  
+  width: 30vw;
   /* margin: 0% auto 100px auto; */
 
 }
 
 input {
   font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
-  width: 470px;
-  height: 50px;
+  font-size: 1vw;
+  width: 90%;
+  height: 3.5vw;
   padding: 0px 15px 0px 15px;
   backdrop-filter: blur(5px);
   background: transparent;
@@ -148,11 +147,11 @@ input {
   
   border: solid 1px #b3aca7;
   border-bottom: none;
-  
+/*   
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out; */
 }
 
 input:hover {
@@ -161,10 +160,10 @@ input:hover {
 }
 
 textarea {
-  width: 470px;
-  max-width: 470px;
+   width: 90%;
+  max-width: 100%;
   height: 110px;
-  max-height: 110px;
+  max-height: 60%;
   padding: 15px;
   
   background: transparent;
@@ -189,18 +188,16 @@ textarea:hover {
 }
 
 #submit {
-  width: 502px;
-  
+  /* width: 30vw !important; */
+  width:96.5%;
   padding: 0;
   margin: -5px 0px 0px 0px;
-  
   font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
+  font-size: 1vw;
   color: #b3aca7;
   backdrop-filter: blur(5px);
   outline:none;
   cursor: pointer;
-  
   border: solid 1px #b3aca7;
   border-top: none;
 }

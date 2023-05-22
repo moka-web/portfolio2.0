@@ -2,6 +2,10 @@
 import miFoto from "../../assets/miFoto.jpg"
 import "./about.css"
 import micara from "../../assets/miCaraEnPng.png"
+import iconoReact from "../../assets/iconoReact.png";
+import iconoMongo from "../../assets/iconoMongo.png";
+import iconoNode from "../../assets/iconoNode.png";
+import iconoExpress from "../../assets/iconoExpress.png";
 
 export const About = ()=>{
     return(
@@ -10,20 +14,25 @@ export const About = ()=>{
                 
                 <div className="card-about"> 
 
-                <div className="about-text">
-                    <h1>Quien Soy? </h1>
-                    <hr style={{color:"#ffff", width:"100%"}} />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro at nam nesciunt officiis sint qui temporibus? Exercitationem iste, porro incidunt excepturi doloremque, veniam dolor blanditiis nulla, illo delectus impedit dicta?</p>
-                </div>
+                    <div className="about-text">
+                        <h1>Quien Soy? </h1>
+                        <hr style={{color:"#ffff", width:"100%"}} />
+                        <p>"Hola, soy Tomás Juárez, un apasionado desarrollador front-end con dos años de experiencia. Me especializo en HTML, CSS, JavaScript, React.js y Node.js. Mi enfoque se basa en combinar la pasión por la programación con un compromiso constante con la excelencia. Me encanta crear experiencias interactivas y visualmente atractivas en el desarrollo web. Si quieres colaborar o conocer más sobre mi trabajo, ¡explora mi portafolio! Estoy emocionado de conectar con personas apasionadas y embarcarme en nuevas oportunidades para crecer y crear un impacto significativo."</p>
+                    </div>
 
 
-                {/* <div className="about-image">
-                    <img className="mifoto" src={micara} alt="" />
+                  
+                    <div className="about-images">
+                        <div>
+                            <img src={iconoMongo} alt="" />
+                            <img  src={iconoExpress} alt="" />
+                            <img src={iconoReact} alt="" />
+                            <img src={iconoNode} alt="" />
+                        </div>    
+                    </div>    
+        
                 </div>
-                <img style={{width:"10rem",display:"flex",position:"absolute",top:"178vh",left:"15vw",zIndex:"3"}} src="https://em-content.zobj.net/source/microsoft-teams/337/man-raising-hand-light-skin-tone_1f64b-1f3fb-200d-2642-fe0f.png" alt="" /> */}
-            
             </div>
-                </div>
         </>
     )
 }

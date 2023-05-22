@@ -13,15 +13,15 @@
     width: 100%;
     height: 100%;
     display: flex;
-    
+    justify-content: center;
     background-color:#c9932e;
-  
+    overflow: hidden;
 }
 
 
 .about-text{
     width: 30%;
-    margin: 5% 0 0 10% ;
+    margin: 2% 0 0 0% ;
     display: flex;
     flex-direction: column;
     
@@ -38,8 +38,9 @@
 .about-text p{
     color: #ffff;
     text-align: center;
+    font-size: 1.5vw;
 }
-.about-image{
+/* .about-image{
     width: 30%;
     height: 53%;
     display: flex;
@@ -49,7 +50,7 @@
     top:10%;
     overflow: hidden;
     background-color: #e2dedb;
-}
+} */
 
 .mifoto{
 
@@ -57,4 +58,44 @@
     height: 100%;
     object-fit: cover;
    
+}
+
+.about-images{
+    width: 50%;
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.about-images div{
+    
+    height: 50%;
+    width: 50%;
+  
+    
+}
+.about-images div img{
+    width:50%;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .about-text{
+        width: 90%;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        
+     
+        
+    }
+    .about-text p{
+        color: #ffff;
+        text-align: center;
+        font-size: 5vw;
+    }
 }

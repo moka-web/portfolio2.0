@@ -4,6 +4,8 @@ import iconoReact from "../../assets/iconoReact.png";
 import iconoMongo from "../../assets/iconoMongo.png";
 import iconoNode from "../../assets/iconoNode.png";
 import iconoExpress from "../../assets/iconoExpress.png";
+import iconoGithhub from "../../assets/iconoGithub.png";
+import iconoLinkedin from "../../assets/iconolinkedin.png";
 import micara from "../../assets/miCaraEnPng.png";
 
 export const Home = () =>{
@@ -17,8 +19,8 @@ export const Home = () =>{
                 <div className='home-info'>
                     
                     <h1> Hi there ! </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aliquid incidunt id soluta officiis nulla tempore repellendus earum tempora similique facilis, sed nesciunt, nemo amet culpa dolor consequatur fuga iste.</p>
-                    <button>descargar CV</button>
+                    <p>¡Saludos! Soy Tomás Juárez, un apasionado desarrollador front-end con 2 años de experiencia, y me complace darte la bienvenida a mi portafolio.</p>
+                    <a download href="./CV-en Tomas Juarez.pdf"><button>descargar CV</button></a>
                 </div>
                 <div className='stack-icons'>
                     <img className="react-icon" src={iconoReact} alt="" />
