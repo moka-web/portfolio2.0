@@ -1,5 +1,5 @@
 
-import "./Projects.css"
+import "./projects.css"
 import bloq from "../../assets/capturas y flow de mis sitios/Bloq-capital/bloq.jpg"
 import avisense from "../../assets/capturas y flow de mis sitios/avisense/avisense-main.jpg"
 import apelie from "../../assets/capturas y flow de mis sitios/apelie/avisense-primera-version.jpg"
