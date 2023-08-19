@@ -8,6 +8,7 @@ import buyers from "../../assets/capturas y flow de mis sitios/Buyers/home-buyer
 import prestamos from "../../assets/capturas y flow de mis sitios/prestamos/prestamos.jpg"
 import iconoGithub from "../../assets/iconoGithub.png"
 import iconoWeb from "../../assets/iconoWeb.png"
+import cryptoTracker from "../../assets/capturas y flow de mis sitios/cryptotracker/crypto-tracker-main.jpg"
 
 export const Projects = ()=>{
     return(
@@ -52,6 +53,12 @@ export const Projects = ()=>{
                         <img src={prestamos} alt="" />
                         <a className="card-link"  target="_blank" href="https://naughty-booth-71559c.netlify.app/"><img style={{width:"6vw"}} src={iconoWeb} alt="" /></a>
                         <a className="card-link2" href="https://github.com/moka-web/Javascript-coder"><img style={{width:"4vw"}} src={iconoGithub} alt="" /></a>
+                    </div>
+
+                    <div className="card-project">
+                        <img src={cryptoTracker} alt="" />
+                        <a className="card-link"  target="_blank" href="https://crypto-tracker-lemon-ten.vercel.app/"><img style={{width:"6vw"}} src={iconoWeb} alt="" /></a>
+                        <a className="card-link2" href="https://github.com/moka-web/Crypto-Tracker"><img style={{width:"4vw"}} src={iconoGithub} alt="" /></a>
                     </div>
 
                     
