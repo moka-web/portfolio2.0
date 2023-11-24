@@ -95,6 +95,7 @@ margin-top:20% ;
    
     .home{
         display: flex;
+        flex-wrap: wrap-reverse;
         justify-content: center;
         height: 100vh;
         width: 100%;
@@ -137,7 +138,7 @@ margin-top:20% ;
 
       .container-main-img{
         position: absolute;
-        top: 70%;
+        top: 10%;
         right: 25%;
         bottom: 0%;
         background: rgb(201,147,32);

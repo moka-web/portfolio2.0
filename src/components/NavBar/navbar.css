@@ -84,17 +84,28 @@ nav ul li a.active {
 }
 
 .nav-icon {
-    display: block;
+    display: flex;
     position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
+    top: 1.5rem;
+    right: 1.5rem;
     font-size: 1.8rem !important;
-    width: 20vw;
+    width: 10vw;
+    height: 10vw;
     cursor: pointer;
     color: #0c0c0c;
     z-index: 6;
+    
+    background-color: #ffdd40;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center ;
+    
 }
+
+/* .fa{
+    margin: 0 auto !important;
+} */
+
 
 
 
