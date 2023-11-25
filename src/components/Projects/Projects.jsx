@@ -9,6 +9,9 @@ import prestamos from "../../assets/capturas y flow de mis sitios/prestamos/pres
 import iconoGithub from "../../assets/iconoGithub.png"
 import iconoWeb from "../../assets/iconoWeb.png"
 import cryptoTracker from "../../assets/capturas y flow de mis sitios/cryptotracker/crypto-tracker-main.jpg"
+import NikeEcommerceImg from "../../assets/capturas y flow de mis sitios/NikeEcommerce/imgNikeEcommerce.jpg"
+
+
 
 export const Projects = ()=>{
     return(
@@ -59,6 +62,12 @@ export const Projects = ()=>{
                         <img src={cryptoTracker} alt="" />
                         <a className="card-link"  target="_blank" href="https://crypto-tracker-lemon-ten.vercel.app/"><img style={{width:"6vw"}} src={iconoWeb} alt="" /></a>
                         <a className="card-link2" href="https://github.com/moka-web/Crypto-Tracker"><img style={{width:"4vw"}} src={iconoGithub} alt="" /></a>
+                    </div>
+
+                    <div className="card-project">
+                        <img src={NikeEcommerceImg} alt="" />
+                        <a className="card-link"  target="_blank" href="https://nike-ecommerce-zeta.vercel.app/"><img style={{width:"6vw"}} src={iconoWeb} alt="" /></a>
+                        <a className="card-link2" href="https://github.com/moka-web/nikeEcommerce"><img style={{width:"4vw"}} src={iconoGithub} alt="" /></a>
                     </div>
 
                     
