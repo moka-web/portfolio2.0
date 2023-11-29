@@ -14,9 +14,12 @@ export const About = ()=>{
                 <div className="card-about"> 
 
                     <div className="about-text">
-                        <h1>Quien Soy? </h1>
+                        <h1>Who am I?... </h1>
                         <hr style={{color:"#ffff", width:"100%"}} />
-                        <p>"Hola, soy Tomás Juárez, un apasionado desarrollador front-end con dos años de experiencia. Me especializo en HTML, CSS, JavaScript, React.js y Node.js. Mi enfoque se basa en combinar la pasión por la programación con un compromiso constante con la excelencia. Me encanta crear experiencias interactivas y visualmente atractivas en el desarrollo web. Si quieres colaborar o conocer más sobre mi trabajo, ¡explora mi portafolio! Estoy emocionado de conectar con personas apasionadas y embarcarme en nuevas oportunidades para crecer y crear un impacto significativo."</p>
+                        <p>
+                            
+"Hello, I'm Tomás Juárez, a passionate front-end developer with two years of experience. I specialize in HTML, CSS, JavaScript, React.js, and Node.js. My focus revolves around combining a passion for programming with a constant commitment to excellence. I love creating interactive and visually appealing experiences in web development. If you want to collaborate or learn more about my work, explore my portfolio! I'm excited to connect with passionate individuals and embark on new opportunities to grow and make a meaningful impact."
+                        </p>
                     </div>
 
 

@@ -18,7 +18,8 @@ export const Projects = ()=>{
         <>
             <div id="projects" className="projects">
                 <h1>Projects </h1>
-                <p>Estos son algunos de mis proyectos mas recientes... <br /> podes ver mas proyectos en mi <a style={{color:"black",fontSize:"1.5vw"}} href="">repositorio</a> de github </p>
+                <p>These are some of my most recent projects...
+                <br />You can see more projects on my Github <a style={{color:"black",fontSize:"1.5vw"}} href="">repository.</a> </p>
 
                 <div className="list-projects">
                     <div  className="card-project">

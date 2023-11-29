@@ -17,7 +17,11 @@ export const Home = () =>{
                 <div className='home-info'>
                     
                     <h1> Hi there ! </h1>
-                    <p>¡Saludos! Soy Tomás Juárez, un apasionado desarrollador front-end con 2 años de experiencia, y me complace darte la bienvenida a mi portafolio.</p>
+                    <p>
+                     
+"Hello, I'm Tomas! A web developer specialized in the MERN stack. I create captivating and functional digital experiences.
+        <br />
+ If you're in search of a web developer, contact me! I'm excited to turn ideas into reality in the digital world.</p>
                     <a download href="./CV-en Tomas Juarez.pdf"><button>descargar CV</button></a>
                 </div>
                 <div className='stack-icons'>

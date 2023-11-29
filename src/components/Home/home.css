@@ -6,7 +6,7 @@
 }
 .home-container2 {
   width: 60%;
-  margin: 5% 0 0 5%;
+  margin: 0 0 0 5%;
   /* border-radius: 50% 45% 50% 45%; */
   /* border-radius: 40%  0  40% 0 ;  */
   /* border: solid 3px #c9932e ; */
@@ -26,22 +26,30 @@
 
 .home-info p {
   margin-top: 10%;
+  font-size: 1.2rem;
   width: 65%;
-  color: rgb(112, 107, 107);
+  color: rgb(0, 0, 0);
+  
 }
 
 .home-info h1 {
   font-size: 5vw;
 
-  color: rgb(112, 107, 107);
+  color: rgb(180, 150, 17);
 }
 .home-info button {
   border: solid 1px #c9932e;
   background-color: transparent;
   cursor: pointer;
-  height: 5vh;
+  height: 3rem;
+  width: 10rem;
   border-radius: 5px;
-  margin-left: 20%;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  margin: 0 6.5rem;
+  font-weight: bold;
+  
 }
 
 .react-icon {
@@ -53,7 +61,7 @@
   display: flex;
   /* justify-content: center; */
   justify-content: space-between;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 .container-main-img {
