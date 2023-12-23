@@ -22,7 +22,7 @@ export const Home = () =>{
 "Hello, I'm Tomas! A web developer specialized in the MERN stack. I create captivating and functional digital experiences.
         <br />
  If you're in search of a web developer, contact me! I'm excited to turn ideas into reality in the digital world.</p>
-                    <a download href="./CV-en Tomas Juarez.pdf"><button>descargar CV</button></a>
+                    <a download href="./CV_TomasJuarezDev.pdf"><button>My Resume</button></a>
                 </div>
                 <div className='stack-icons'>
                     <img className="react-icon" src={iconoReact} alt="" />

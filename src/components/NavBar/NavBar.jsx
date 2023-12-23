@@ -78,7 +78,7 @@ export const NavBar = () => {
               onClick={() => handleLinkClick("about")}
               href="#about"
             >
-              Quien soy?
+              About Me
             </a>
           </li>
           <li id="proyectos-nav">
@@ -87,7 +87,7 @@ export const NavBar = () => {
               onClick={() => handleLinkClick("projects")}
               href="#projects"
             >
-              Proyectos
+              Projects
             </a>
           </li>
 
@@ -97,7 +97,7 @@ export const NavBar = () => {
               onClick={() => handleLinkClick("contact")}
               href="#contact"
             >
-              Contactame
+              Contact Me
             </a>
           </li>
         </ul>
